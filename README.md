@@ -1,6 +1,6 @@
 # pygeoapi-auth
 
-Python module to manage pygeoapi authorization
+Python package to manage pygeoapi authorization
 
 ## Installation
 
