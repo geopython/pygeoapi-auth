@@ -22,7 +22,7 @@ are automatically installed during pygeoapi-auth's installation.
 python3 -m venv my-env
 cd my-env
 . bin/activate
-git clone https://github.com/cartologic/pygeoapi-auth.git
+git clone https://github.com/geopython/pygeoapi-auth.git
 cd pygeoapi-auth
 python3 setup.py install
 ```
