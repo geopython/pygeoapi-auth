@@ -37,7 +37,6 @@ LOGGER = logging.getLogger(__name__)
 
 class AutheliaAuthProvider(AuthProvider):
     def get_resources(self):
-        print(self.config)
         return [item for sublist in self.config['access_control']['rules']
                 for item in sublist['resources']]
 
